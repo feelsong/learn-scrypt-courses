@@ -1,12 +1,12 @@
 # Chapter 12: Maintain Game State
 
 A contract can keep state across chained transactions by storing it in the locking script. In the following example, a contract goes from `state0` to `state1`, and then to `state2`. Input in transaction 1 (`tx1`) is spending UTXO in `tx0`, and `tx2` spending `tx1`.
-![](https://github.com/sCrypt-Inc/image-hosting/blob/master/learn-scrypt-courses/06.png?raw=true){:target="_blank"}
+![](https://github.com/sCrypt-Inc/image-hosting/blob/master/learn-scrypt-courses/06.png?raw=true)
 
 You can maintain state in a contract with these simple steps.
 
 ## Step 1 
-Declare any property that is part of the state with a [decorator `@state`](https://scryptdoc.readthedocs.io/en/latest/state.html). You can use the *stateful* property as a normal property: read and update it.
+Declare any property that is part of the state with a [decorator `@state`](https://scryptdoc.readthedocs.io/en/latest/state.html){:target="_blank"}. You can use the *stateful* property as a normal property: read and update it.
 
 ```
 contract TicTacToe {
