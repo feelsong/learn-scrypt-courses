@@ -6,7 +6,7 @@ A contract can keep state across chained transactions by storing it in the locki
 You can maintain state in a contract with these simple steps.
 
 ## Step 1 
-Declare any property that is part of the state with a [decorator `@state`](https://scryptdoc.readthedocs.io/en/latest/state.html){:target="_blank"}. You can use the *stateful* property as a normal property: read and update it.
+Declare any property that is part of the state with a [decorator `@state`](https://scryptdoc.readthedocs.io/en/latest/state.html target="_blank"). You can use the *stateful* property as a normal property: read and update it.
 
 ```
 contract TicTacToe {
