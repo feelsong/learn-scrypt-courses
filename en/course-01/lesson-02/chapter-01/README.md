@@ -1,6 +1,6 @@
 # Chapter 1: scryptlib
 
-Congratulations! You've built your very first Bitcoin SV smart contract using sCrypt. Now, you will learn how to implement your contract into your Web3/dAPP application using Javascript. We are assuming that you have some basic knowledge of the front-end development. 
+Congratulations! You've built your very first Bitcoin SV Smart Contract using sCrypt. Now, you will learn how to implement your contract into your first Web3 application using Javascript. We are assuming that you have some basic knowledge of the front-end development. 
 
 ## scryptlib
 
@@ -33,6 +33,6 @@ const result = game.move(n, new Sig(toHex(sig)), 10000, preimage).verify(context
 
 First we can create a boilerplate React application with  [create-react-app](https://github.com/facebook/create-react-app). 
 
-Then, you can bring `scryptlib` using commands from Setup.
+Then, you can install `scryptlib` using commands from Setup.
 
-In App.js. Introduce `scryptlib` to your application through `import` of **nodejs**.
+In App.js, let's introduce `scryptlib` to your application through `import` of **nodejs**.
